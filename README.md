@@ -2,6 +2,36 @@
 
 ManageWP code snippets collection for WordPress.
 
+## How To Use
+
+Just copy and paste the available code snippets below and load it to your ManageWP code snippets editor.
+
+## Code Snippets
+
+Here's the collections of code snippets.
+
+### Info & Debugging
+
+* __Test Database Connection__ - This will return a database connection status. This is useful to when you want to make sure your database credentials are working correctly or not.
+
+    ```php
+    <?php
+
+    // Test Database Connection
+    $servername = "localhost";
+    $username = "username-here";
+    $password = "password-here";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password);
+
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    echo "Connected successfully";
+    ```
+
 ## Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
@@ -12,7 +42,7 @@ If you're facing any problems with the code snippets please let me know by creat
 
 ## To Do
 
-- Add more code snippets
+* Add more code snippets
 
 ## Community
 
