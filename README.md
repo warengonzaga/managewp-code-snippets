@@ -1,4 +1,4 @@
-# ManageWP Code Snippets
+# ManageWP Code Snippets [![Maintained by Waren Gonzaga](https://img.shields.io/badge/Maintained%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://facebook.com/warengonzagaofficial)
 
 ManageWP code snippets collection for WordPress.
 
