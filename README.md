@@ -12,6 +12,20 @@ Here's the collections of code snippets.
 
 ### Info & Debugging
 
+* __List Plugins__ - This will list all of the available plugin in the WordPress plugin directory. Useful to check the installed plugins in your installation.
+
+    ```php
+    <?php
+
+    // Directory to scan
+    $files = scandir("wp-content/plugins");
+
+    // Return the result of the scan
+    foreach($files as $file) {
+        echo $file."\n";
+    }
+    ```
+
 * __Test Database Connection__ - This will return a database connection status. This is useful to when you want to make sure your database credentials are working correctly or not.
 
     ```php
@@ -64,10 +78,10 @@ ManageWP Code Snippets is licensed under MIT - <https://opensource.org/licenses/
 
 ManageWP Code Snippets is Maintained by **Waren Gonzaga**
 
-- **Facebook:** <https://facebook.com/warengonzagaofficial>
-- **Twitter:** <https://twitter.com/warengonzaga>
-- **Website:** <https://warengonzaga.com>
-- **Email:** dev(at)warengonzaga[.]com
+* **Facebook:** <https://facebook.com/warengonzagaofficial>
+* **Twitter:** <https://twitter.com/warengonzaga>
+* **Website:** <https://warengonzaga.com>
+* **Email:** dev(at)warengonzaga[.]com
 
 ---
 
