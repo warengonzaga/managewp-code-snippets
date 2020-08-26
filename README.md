@@ -46,6 +46,15 @@ Here's the collections of code snippets.
     echo "Connected successfully";
     ```
 
+* __View File Contents__ - Able to view file contents in your installation. For example, you want to check the wp-config.php contents.
+
+    ```php
+    <?php
+    $file = "./wp-config.php";
+    $view = file_get_contents($file, true);
+    echo $view;
+    ```
+
 ## Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
