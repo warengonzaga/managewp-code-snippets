@@ -50,8 +50,14 @@ Here's the collections of code snippets.
 
     ```php
     <?php
+
+    // define specific file
     $file = "./wp-config.php";
+
+    // do the magic
     $view = file_get_contents($file, true);
+
+    // return the results
     echo $view;
     ```
 
